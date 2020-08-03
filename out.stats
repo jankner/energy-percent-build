@@ -1,11 +1,11 @@
 code size summary per package:
 
 base:                    602823
-containers-0.5.11.0-GhhPXbBZ8rf1WBQjAVqqMW:190090
+containers-0.5.11.0-GhhPXbBZ8rf1WBQjAVqqMW:190091
 dependent-map-0.2.4.0-DMPMYlmG4cR7elSMvzoKhG:56126
 dependent-sum-0.4.1-67rHSI4dU4Eh1zqJOAHqu:12882
-ghc-prim:                44351
-ghcjs-base-0.2.0.0-1zqNn6nIHQdAmmILf3TTxp:7411
+ghc-prim:                44427
+ghcjs-base-0.2.0.0-1zqNn6nIHQdAmmILf3TTxp:9185
 ghcjs-dom-jsffi-0.9.2.0-GnWNSjUvOFlLG3HjZwWTpH:126920
 ghcjs-prim-0.1.1.0-A1JdvSlggG4AS5cM95oali:7877
 integer-gmp:             6600
@@ -19,7 +19,7 @@ reflex-dom-core-0.4-2a86yvKhCSZKEuMoYVKfxR:1053240
 text-1.2.3.0-DJtdEqIKOtKIC6lWl5JFOu:855
 these-0.7.4-FY8lcpovtsDKIeGwJs4mlh:12040
 transformers-0.5.5.0-8ZjexgxxdBLH8OWn8CZkwx:9069
-unbounded-delays-0.1.1.0-5V6xLCeZh6nLs8o37BDuBe:174873
+unbounded-delays-0.1.1.0-5V6xLCeZh6nLs8o37BDuBe:224979
 
 
 code size per module:
@@ -95,7 +95,7 @@ base
     Unsafe.Coerce:                      3993
 
 containers-0.5.11.0-GhhPXbBZ8rf1WBQjAVqqMW
-    Data.IntMap.Internal:               43787
+    Data.IntMap.Internal:               43788
     Data.IntMap.Strict:                 80717
     Data.Map.Internal:                  65586
 
@@ -113,10 +113,12 @@ ghc-prim
     GHC.Classes:                        139
     GHC.IntWord64:                      3052
     GHC.Tuple:                          4226
-    GHC.Types:                          26897
+    GHC.Types:                          26973
 
 ghcjs-base-0.2.0.0-1zqNn6nIHQdAmmILf3TTxp
-    Data.JSString:                      3855
+    Data.JSString:                      1506
+    Data.JSString.Internal.Fusion.Common:268
+    Data.JSString.Internal.Type:        3855
     GHCJS.Marshal:                      1006
     GHCJS.Marshal.Internal:             513
     GHCJS.Marshal.Pure:                 571
@@ -209,9 +211,9 @@ transformers-0.5.5.0-8ZjexgxxdBLH8OWn8CZkwx
     Control.Monad.Trans.State.Strict:   1915
 
 unbounded-delays-0.1.1.0-5V6xLCeZh6nLs8o37BDuBe
-    Control.Concurrent.Thread.Delay:    174873
+    Control.Concurrent.Thread.Delay:    224979
 
 
 
-packed metadata: 797489
+packed metadata: 801015
 
